@@ -148,3 +148,7 @@ $env:REVERSI_MAX_STEPS=60
 $env:REVERSI_REPORT_OUT="outputs/reversi_train_report.json"
 python .\reversi_main.py
 ```
+
+## Verification Scope
+
+`REVERSI_DRY_RUN=1` is intended for interface and report-path checks only. Full merge verification should still use the Gym Reversi environment when that dependency is available.
