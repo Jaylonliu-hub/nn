@@ -24,6 +24,10 @@ python numpy_tutorial.py --seed 42 --save-dir outputs --no-show
 - `quadratic.png`
 - `trigonometric.png`
 
+### 文档维护说明
+
+本说明将可复现实验入口和题目要求分开展示，便于先确认 `--seed`、`--save-dir`、`--no-show` 三个参数的用途。该补充仅优化 README 说明，不改变 `numpy_tutorial.py` 的执行逻辑。
+
 ## 题目要求： 
 
 按照 [python 文件](https://github.com/OpenHUTB/nn/blob/main/src/chap01_warmup/numpy_tutorial.py) 中的要求，利用numpy 实现对应的操作。
