@@ -21,6 +21,10 @@ python svm.py --learning-rate 0.1 --reg-lambda 0.0 --max-iter 20000 --out-dir ou
 
 - `outputs/svm_metrics.json`
 
+### 复现范围说明
+
+上述命令只覆盖 `svm.py` 的轻量参数化入口；核 SVM、损失函数对比和多分类实验仍分别由后续章节中的 `svm_improved.py`、`svm_comparison.py`、`svm_multi.py` 运行。该说明用于避免把不同实验入口混在同一次验证中。
+
 ## 问题描述
 
 本项目完成了以下三个部分的实验内容：
