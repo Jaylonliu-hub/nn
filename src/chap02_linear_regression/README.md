@@ -20,6 +20,10 @@ python test_verify.py --json-out outputs/test_verify_report.json
 
 - `outputs/test_verify_report.json`
 
+### 文档维护说明
+
+`test_verify.py` 的 JSON 导出是可选留档能力，训练数据仍使用 `train.txt`，评估数据仍使用 `test.txt`。该说明仅补充验证边界，便于评审区分工程化输出与线性回归核心逻辑。
+
 ## 问题描述：
 
 有一个函数![image](http://latex.codecogs.com/gif.latex?f%3A%20%5Cmathbb%7BR%7D%5Crightarrow%20%5Cmathbb%7BR%7D) ，使得。现 ![image](http://latex.codecogs.com/gif.latex?y%20%3D%20f%28x%29)在不知道函数 $f(\cdot)$的具体形式，给定满足函数关系的一组训练样本![image](http://latex.codecogs.com/gif.latex?%5Cleft%20%5C%7B%20%5Cleft%20%28%20x_%7B1%7D%2Cy_%7B1%7D%20%5Cright%20%29%2C...%2C%5Cleft%20%28%20x_%7BN%7D%2Cy_%7BN%7D%20%5Cright%20%29%20%5Cright%20%5C%7D%2CN%3D300)，请使用线性回归模型拟合出函数$y=f(x)$。
@@ -37,7 +41,7 @@ python test_verify.py --json-out outputs/test_verify_report.json
     1. 附加题：实现“多项式基函数”以及“高斯基函数”（可参考PRML）
     1. 附加题：完成梯度下降的优化 (参考书中第二章 2.3节中的公式)
     
-- [ ] 参照`lienar_regression-tf2.0.ipnb`使用tensorflow2.0 使用梯度下降完成线性回归
+- [ ] 参照 `linear_regression-tf2.0.py` 使用 TensorFlow 2.0 通过梯度下降完成线性回归
 - [ ] 使用训练集train.txt 进行训练，使用测试集test.txt 进行评估（标准差），训练模型时请不要使用测试集。
 
 # 线性回归练习项目
