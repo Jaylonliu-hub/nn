@@ -64,6 +64,12 @@
 
 ---
 
+## 阅读顺序建议
+
+本章 README 同时覆盖 TensorFlow 2.0 基础函数、MNIST 前馈神经网络和函数拟合练习。建议先阅读自定义 softmax/sigmoid 与交叉熵实现，再阅读 MNIST FNN 训练流程，最后对照函数拟合任务补充实验报告。
+
+---
+
 # TensorFlow 2.0 练习说明
 
 ## 简介
