@@ -38,3 +38,6 @@ python .\sequence_reversal-exercise.py
 
 - `src/chap07-seq2seq-and-attention/sequence_reversal_report.json`
 
+## 适用范围
+
+本说明聚焦 `sequence_reversal-exercise.py` 的工程化参数和报告导出；带注意力版本仍由 `sequence_reversal_with_attention-exercise.py` 承载。拆分入口说明后，评审可以分别查看基础 Seq2Seq 与 Attention 版本的行为。
