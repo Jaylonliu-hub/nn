@@ -55,7 +55,7 @@ python GMM.py --n-samples 1000 --n-components 3 --max-iter 100 --tol 1e-6 --rand
 ## 文件结构
 
 ```bash
-gmm_upload/
+chap11_gaussian_mixture/
 ├── GMM.py
 ├── README.md
 └── outputs/
@@ -72,6 +72,12 @@ gmm_upload/
 - `logsumexp(a)`：稳定计算 `log(sum(exp(a)))`；
 - `GaussianMixtureModel.fit(X)`：执行 EM 训练流程；
 - `GaussianMixtureModel.plot_convergence(...)`：绘制并可保存收敛曲线。
+
+---
+
+## 路径说明
+
+文件结构示例与当前目录名保持一致，避免评审从 `src/chap11_gaussian_mixture` 进入后误以为还需要额外的 `gmm_upload` 子目录。
 
 ---
 
