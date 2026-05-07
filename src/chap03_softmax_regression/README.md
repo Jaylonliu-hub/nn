@@ -2,12 +2,16 @@
 
 
 ## 问题描述
-1. 完成 `logistic_regression-exercise.ipnb`中的填空
+1. 完成 `logistic_regression-exercise.py` 中的填空
    * 填空一：实现sigmoid的交叉熵损失函数(不使用tf内置的loss 函数)
    
-1. 完成 `softmax_regression-exercise.ipnb`中的填空
+1. 完成 `softmax_regression-exercise.py` 中的填空
     * 填空一：在__init__构造函数中建立模型所需的参数
     * 填空二：实现softmax的交叉熵损失函数(不使用tf内置的loss 函数)
+
+## 入口文件说明
+
+本目录当前保留两个可直接查看和运行的 Python 练习脚本：`logistic_regression-exercise.py` 与 `softmax_regression-exercise.py`。README 中统一使用脚本文件名，避免将当前源码误写成不存在的 notebook 文件。
 
 # logistic_regression-exercise.py 项目说明
 
