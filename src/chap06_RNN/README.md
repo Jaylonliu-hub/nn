@@ -25,6 +25,10 @@
 
 生成诗歌 开头词汇是 “ 日 、 红 、 山 、 夜 、 湖、 海 、 月 。
 
+## 练习入口说明
+
+本章包含两个相对独立的 RNN 练习：`Learn2Carry-exercise.py` 用于学习序列加法进位逻辑，`poem_generation_with_RNN-exercise.py` 与 `tangshi_for_pytorch/` 用于唐诗生成。阅读或验收时可以按入口文件区分任务，避免把两个数据集和训练目标混在一起。
+
 参考文献：
 
 ​    Xingxing Zhang and Mirella Lapata. 2014. Chinese poetry generation with recurrent neural networks. In Proceedings of the 2014 Conference on EMNLP. Association for Computational Linguistics, October
