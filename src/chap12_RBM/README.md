@@ -14,6 +14,11 @@ python visualize_results.py --create-demo-data --no-show --output outputs/rbm_re
 
 Generated output:
 - `outputs/rbm_results.png`
+
+## Documentation Scope
+
+The visualization helper note above documents `visualize_results.py` only. The original `rbm.py` training description below still keeps its Python 2.7 dependency statement, so reviewers can distinguish the visualization workflow from the legacy RBM exercise.
+
 # 受限玻尔兹曼机
 
 
